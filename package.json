@@ -1,26 +1,14 @@
 {
-  "name": "lukasz-product-sheet",
+  "name": "product-catalog-task",
   "version": "1.0.0",
-  "description": "Apply position-based discounts and Size x Pack variants to a Shopify product export",
-  "directories": {
-    "test": "test"
-  },
+  "description": "Apply position-based discounts and Size × Pack variants to a Shopify product export",
+  "private": true,
+  "type": "module",
   "scripts": {
     "process": "node src/cli.js",
     "test": "node --test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ishantsharma-alt/lukasz-fashion-website.git"
-  },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ishantsharma-alt/lukasz-fashion-website/issues"
-  },
-  "homepage": "https://github.com/ishantsharma-alt/lukasz-fashion-website#readme",
   "dependencies": {
     "exceljs": "^4.4.0"
-  },
-  "type": "module",
-  "private": true
+  }
 }
